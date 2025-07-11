@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sorteio de Baralho Cigano</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fce4ec;
+      color: #4a148c;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #ba68c8;
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #9c27b0;
+    }
+
+    #carta {
+      margin-top: 30px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🔮 Sorteio do Baralho Cigano 🔮</h1>
+  <button onclick="sortearCarta()">Sortear Carta</button>
+
+  <div id="carta"></div>
+
+  <script>
+    const cartas = [
+      "1. O Cavaleiro 🐎",
+      "2. O Trevo 🍀",
+      "3. O Navio 🚢",
+      "4. A Casa 🏠",
+      "5. A Árvore 🌳",
+      "6. As Nuvens ☁️",
+      "7. A Cobra 🐍",
+      "8. O Caixão ⚰️",
+      "9. O Buquê 💐",
+      "10. A Foice 🔪",
+      "11. O Chicote 🧹",
+      "12. Os Pássaros 🐦",
+      "13. A Criança 👶",
+      "14. A Raposa 🦊",
+      "15. O Urso 🐻",
+      "16. A Estrela ⭐",
+      "17. A Cegonha 🕊️",
+      "18. O Cachorro 🐶",
+      "19. A Torre 🗼",
+      "20. O Jardim 🌷",
+      "21. A Montanha 🏔️",
+      "22. Os Caminhos 🚶‍♀️",
+      "23. Os Ratos 🐀",
+      "24. O Coração ❤️",
+      "25. O Anel 💍",
+      "26. O Livro 📖",
+      "27. A Carta ✉️",
+      "28. O Cigano 🧔",
+      "29. A Cigana 👩‍🦰",
+      "30. Os Lírios 🌸",
+      "31. O Sol ☀️",
+      "32. A Lua 🌙",
+      "33. A Chave 🗝️",
+      "34. Os Peixes 🐟",
+      "35. A Âncora ⚓",
+      "36. A Cruz ✝️"
+    ];
+
+    function sortearCarta() {
+      const sorteada = cartas[Math.floor(Math.random() * cartas.length)];
+      document.getElementById('carta').textContent = `Carta sorteada: ${sorteada}`;
+    }
+  </script>
+
+</body>
+</html>
+```
+
+---
+
+### ✅ Como usar:
+
+1. Copie o código.
+2. Cole em um arquivo com a extensão `.html`.
+3. Abra o arquivo no navegador.
+4. Clique no botão e receba uma carta aleatória!
+
+Se quiser, posso te ajudar a adicionar a **descrição da carta sorteada**, ou colocar **imagens** reais do baralho também! 🌟 Quer?
+  
